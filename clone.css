@@ -301,17 +301,14 @@ html, body{
 
 
 @media screen and (max-width: 500px) {
-    #lpg{
-        /* width: 400%; */
-    }
+    
 
     #lpg h1{
         font-size: 350px;
-        line-height: 585px;
+        line-height: 450px;
     }
 
     #np{
-        /* width: 390%; */
         min-height: 85vh;
     }
 
@@ -336,12 +333,8 @@ html, body{
         letter-spacing: 15px;
     }
 
-    #third{
-       /* width: 200%; */
-    }
 
     #theader{
-        /* width: 160%; */
         min-height: 20vh;
         margin-bottom: 200px;
     }
@@ -366,10 +359,6 @@ html, body{
         width: 70%;
     }
 
-    #main #forthp{
-        /* width: 300%; */
-    }
-
     #fheader h1{
         font-size: 40px;
     }
@@ -379,7 +368,6 @@ html, body{
     }
 
     #main #fifthp{
-        /* width: 300%; */
         min-height: 85vh;
         margin-bottom: 100px;
     }
