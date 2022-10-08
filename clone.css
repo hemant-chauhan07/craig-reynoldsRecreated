@@ -1,0 +1,390 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: voyage;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    
+}
+
+
+#lpg h1{
+    font-size: 385px;
+    font-weight: 100;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: uppercase;
+}
+
+#lpg{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#lpg #one{
+    top: 0%;
+    transform: translate(-50%, 0);
+}
+
+#lpg #two{
+    margin: -2%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+#lpg h1:hover{
+    z-index: 999;
+    color: rgb(120, 81, 81);
+    cursor: pointer;
+}
+
+#lpg #first:hover{
+    z-index: 9999;
+    position: absolute;
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
+#np button:hover{
+    color: black;
+    background-color: rgb(160, 233, 233);
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#np h5:hover{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color: rgba(39, 180, 199, 0.992);
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+
+#lpg #first{
+     
+    height: 50%;
+    position: absolute;
+    left: 52%;
+    transform: translate(-50%,50%) rotate(5deg);
+    z-index: 99;
+}
+
+
+ #lpg #second{
+     
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(-5deg);
+    z-index: 99;
+}
+
+#np{
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+#np #p1{
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    padding-top: 20px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+#np #p2{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#np h5{
+    position: absolute;
+    text-transform: uppercase;
+    right: 5%;
+    bottom: 10%;
+    font-size: 15px;
+    letter-spacing: 20px;
+    transform-origin: right;
+    transform: rotate(90deg);
+}
+
+#np button{
+    position: absolute;
+    bottom: 23%;
+    left: 37%;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    
+}
+
+#third{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#theader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: white;
+}
+
+#theader h1{
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+#theader h4{
+    font-size: 10px;
+    padding-right: 25px;
+    font-weight: 600;
+}
+
+#third #three{
+    
+    font-size: 120px;
+    border-top: 1.5px solid black;
+    /* border-bottom: 1.5px solid black; */
+    font-weight: 100;
+    line-height: 100px;
+    margin: 15px 300px;
+    padding-bottom: 10px;
+    opacity: .3;
+    text-transform: uppercase;
+}
+
+#third #pic3{
+    border: 3px solid black;
+    position: absolute;
+    left: 50%;
+    transform: translate(40%,70%);
+    z-index: 1;
+    height: 23%;
+    width: 15%;
+}
+
+ #third #three:hover{
+     position: relative;
+     cursor: pointer;
+     opacity: 1;
+     z-index: 99;
+
+}
+
+#main #forthp{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-color: white;
+}
+
+#forthp #fheader{
+    position: relative;
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+#fheader h1{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#fheader h4{
+    font-weight: 600;
+    font-size: 10px;
+}
+
+
+
+#img1{
+    border: 3px solid black;
+    height: 30%;
+    width: 10%;
+    position: absolute;
+    right: 18%;
+    transform: translate(-50%, 50%);
+    z-index: 9;
+}
+#img2{
+    border: 3px solid black;
+    height: 30%;
+    width: 10%;
+    position: absolute;
+    right: 7%;
+    transform: translate(-50%, 50%);
+    z-index: 9;
+}
+#img3{
+    border: 3px solid black;
+    height: 30%;
+    width: 10%;
+    position: absolute;
+    right: -4%;
+    transform: translate(-50%, 50%);
+    z-index: 9;
+}
+
+#forthp #fh1{
+    position: absolute;
+    right: 8%;
+    top: 22%;
+    letter-spacing: 30px;
+    line-height: 130px;
+    font-size: 200px;
+    font-weight: 100;
+}
+
+#forthp h1:hover{
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    color: rgba(186, 229, 182, 0.916);
+}
+
+#main #fifthp{
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    background-color: white;
+}
+
+#ffheader{
+    width: 100%;
+    min-height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#fifthp p{
+    position: absolute;
+    left: 23%;
+    top: 25%;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #lpg{
+        width: 400%;
+    }
+
+    #lpg h1{
+        font-size: 350px;
+        line-height: 585px;
+    }
+
+    #np{
+        width: 390%;
+        min-height: 85vh;
+    }
+
+    #np button{
+        bottom: 15%;
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    #np #p1{
+        font-size: 25px;
+    }
+
+    #np #p2{
+        font-size: 30px;
+        left: 55%;
+    }
+
+    #np h5{
+        font-size: 25px;
+        letter-spacing: 15px;
+    }
+
+    #third{
+       width: 200%;
+    }
+
+    #theader{
+        width: 160%;
+        min-height: 20vh;
+        margin-bottom: 200px;
+    }
+
+    #theader h1{
+        font-size: 40px;
+    }
+
+    #theader h4{
+        font-size: 30px;
+    }
+
+    #third #three{
+        line-height: 120px;
+        margin: 25px 200px;
+        padding-bottom: 60px;
+        letter-spacing: 30px;
+    }
+
+    #third #pic3{
+        height: 30%;
+        width: 70%;
+    }
+
+    #main #forthp{
+        width: 300%;
+    }
+
+    #fheader h1{
+        font-size: 40px;
+    }
+
+    #fheader h4{
+        font-size: 40px;
+    }
+
+    #main #fifthp{
+        width: 300%;
+        min-height: 85vh;
+        margin-bottom: 100px;
+    }
+
+    #fifthp p{
+        font-size: 50px;
+    }
+}
